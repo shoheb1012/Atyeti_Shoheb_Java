@@ -1,0 +1,7 @@
+Create a class where you use final variables in three forms:
+final static,
+final instance,
+and final local.
+Demonstrate delayed initialization using constructors and static blocks.
+Try modifying them and understand
+what the compiler says and why.

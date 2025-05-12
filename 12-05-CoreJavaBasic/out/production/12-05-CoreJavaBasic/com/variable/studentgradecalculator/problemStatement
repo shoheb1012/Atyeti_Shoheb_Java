@@ -1,0 +1,20 @@
+🔸 Problem 3: Student Grade Calculator using Arrays and Dynamic Input
+📝 Requirements:
+Create a Student class with name and marks variables.
+In main class:
+Read n from user (number of students).
+Use an array or ArrayList<Student> to store n student records.
+Calculate:
+Average marks
+Highest and lowest marks
+Names of top and bottom scorers
+Use:
+Local variables inside loops for calculations
+Method parameters to pass and return results cleanly
+Display results in a well-formatted table.
+🧠 Concepts Covered:
+Object arrays and collections
+Variable initialization and manipulation in loops
+Data aggregation using variables
+Scope inside methods and loops
+Clean code with reusable functions
