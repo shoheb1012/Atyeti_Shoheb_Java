@@ -1,0 +1,7 @@
+4. Employee Salary Slip Generator
+Write a program that takes basic salary as input and calculates:
+- HRA: 20% of basic
+- DA: 10% of basic
+- PF: 12% of basic
+- Gross Salary = Basic + HRA + DA - PF
+Generate a formatted salary slip using conditional operators and arithmetic expressions.

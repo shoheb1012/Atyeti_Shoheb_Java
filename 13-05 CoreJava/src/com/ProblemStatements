@@ -1,0 +1,36 @@
+Perfect! If you're aiming for ** loop challenges**,solid problems** that push your logic skills using `for`, `while`, or `do-while` loops in **Java** — no beginner-level print patterns here.
+
+---
+
+### 🔁 ** Java Loop Challenges**
+
+1. **Check if a number is Armstrong**
+
+   * A number is Armstrong if sum of its digits raised to the power of number of digits equals the number.
+   * Input: `153 → 1³ + 5³ + 3³ = 153`
+   * Output: `Armstrong`
+
+2. **Find the GCD of two numbers (using loops only)**
+
+   * Input: `36, 60`
+   * Output: `12`
+
+3. **Find all prime numbers between 1 to N**
+
+   * Input: `N = 30`
+   * Output: `2 3 5 7 11 13 17 19 23 29`
+
+
+4. **Reverse digits and check if reversed is prime**
+
+   * Input: `13` → reversed `31`
+   * Output: `31 is Prime`
+
+5. A number is a Magic Number if the sum of its digits, when calculated repeatedly until a single digit is obtained, results in 1.
+
+   🔢 Examples:
+   1729 → 1+7+2+9 = 19 → 1+9 = 10 → 1+0 = 1 ✅ → Magic Number
+
+   1234 → 1+2+3+4 = 10 → 1+0 = 1 ✅ → Magic Number
+
+   987 → 9+8+7 = 24 → 2+4 = 6 ❌ → Not a Magic Number
