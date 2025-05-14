@@ -1,0 +1,125 @@
+Perfect, Shoheb! Here's a **clear, upgraded, and comprehensive problem statement** for your **Hotel Room Booking System**, including all the **bonus enhancements *. This version is powerful enough to show strong OOPs knowledge and is perfect for showcasing in interviews or your portfolio.
+
+## 🏨 **Advanced Hotel Room Booking System — OOPs Project**
+
+### 🎯 **Problem Statement:**
+
+Design and implement an **Advanced Hotel Room Booking System** using Object-Oriented Programming in Java. The system should support **multiple room types**, allow **customer bookings**, handle **checkouts**, apply **custom billing rules**, and provide **admin-level features** like adding/updating rooms. The system must apply core OOPs principles such as **abstraction, encapsulation, inheritance, polymorphism, composition**, and **enum-based design**.
+
+---
+
+### 🧩 **Core Functional Requirements:**
+
+#### 1. **Room Management**
+
+* Three room types: `DeluxeRoom`, `SuiteRoom`, `StandardRoom`
+* Each room has:
+
+  * Room Number (unique)
+  * Room Type (`enum`)
+  * AC/Non-AC (`boolean`)
+  * Occupancy Status (Available/Booked — use `enum`)
+  * Price per night
+
+#### 2. **Booking and Checkout**
+
+* A customer can:
+
+  * View available rooms
+  * Book a room (enter name, mobile, days of stay)
+  * Checkout from room
+* System calculates bill based on:
+
+  * Base rate
+  * Service tax (12%)
+  * AC surcharge (if applicable)
+  * Discounts for long stays (>5 days)
+
+#### 3. **Customer Handling**
+
+* Each customer has:
+
+  * Unique Customer ID
+  * Name
+  * Mobile Number
+  * Check-in and Check-out dates (use `LocalDate`)
+  * Assigned Room (composition)
+* System tracks which customer is in which room.
+
+#### 4. **Admin Panel**
+
+* Add new rooms
+* Update price or room details
+* View all rooms (with their status)
+* View customer details for occupied rooms
+
+#### 5. **Enums**
+
+* Use enums for:
+
+  * `RoomType` (DELUXE, SUITE, STANDARD)
+  * `OccupancyStatus` (AVAILABLE, OCCUPIED)
+
+---
+
+### 💡 **OOP Concepts to Demonstrate:**
+
+| Concept                 | Where It’s Used                                          |
+| ----------------------- | -------------------------------------------------------- |
+| Encapsulation           | Private fields with getters/setters                      |
+| Abstraction             | `Room` is an abstract class                              |
+| Inheritance             | `DeluxeRoom`, `SuiteRoom`, `StandardRoom` inherit `Room` |
+| Polymorphism            | Overriding `calculateBill()` in each room type           |
+| Composition             | `Customer` has-a `Room`; `Hotel` has-a list of Rooms     |
+| Constructor Overloading | In `Room` or `Customer` for multiple initialization ways |
+| Enums                   | For Room type and occupancy status                       |
+| Exception Handling      | Invalid inputs, full room booking, duplicate room number |
+| Collections             | Use of `ArrayList`, `HashMap` to manage rooms/customers  |
+| Java Time API           | `LocalDate` for date management                          |
+
+---
+
+### 🧪 **Sample Scenarios:**
+
+#### Booking
+
+```
+Enter your name: Shoheb Pathan
+Mobile Number: 9876543210
+Select Room Number to Book: 101
+Enter Stay Duration (in days): 6
+
+Room 101 (DeluxeRoom - AC) booked successfully!
+Service Tax: ₹360.0
+AC Surcharge: ₹150.0
+Long Stay Discount: ₹300.0
+Total Bill: ₹7710.0
+```
+
+#### Admin
+
+```
+--- Admin Panel ---
+1. Add New Room
+2. Update Room Price
+3. View All Rooms
+4. View Customer Details
+```
+
+---
+
+### ✅ **Deliverables**:
+
+* Java classes for: `Room`, `DeluxeRoom`, `SuiteRoom`, `StandardRoom`, `Customer`, `Hotel`, `AdminPanel`
+* Enums: `RoomType`, `OccupancyStatus`
+* Main class with menu-driven logic
+* Console-based interface
+
+---
+
+Would you like me to now generate:
+
+1. ✅ Class Diagram
+2. ✅ Starter Java code skeleton (class names, fields, method names, etc.)
+
+Let me know what you'd prefer next!
