@@ -1,15 +1,40 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import logfileanalyzer.pojo.UserLogEntry;
+import logfileanalyzer.utility.LogFileAnalyzer;
+import logfileanalyzer.utility.LogUtility;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+import java.io.IOException;
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+
+        String filePath = "C:\\Users\\ShohebPathan\\tyeti_Shoheb_Java\\15-5-CoreJava\\src\\logfileanalyzer\\resource\\logs.txt";
+        List<UserLogEntry> userLogEntries = LogFileAnalyzer.readingLogsData(filePath);
+
+        long uniqueUserCount = LogUtility.numberUniqueUser(userLogEntries);
+        System.out.println("Unique User Count : " + uniqueUserCount);
+
+        String maxUserAction = LogUtility.maxActionUser(userLogEntries, "DOWNLOAD");
+        System.out.println("User "+ maxUserAction +" having Highest Downloads ");
+
+
+        String minUserAction = LogUtility.minActionUser(userLogEntries, "DOWNLOAD");
+        System.out.println("User "+minUserAction+" having lowest Downloads ");
+
+
+        Map<LocalDate, Map<String, Set<String>>> summary = LogUtility.getDailyActionSummary(userLogEntries);
+
+        summary.forEach((date, actionMap) -> {
+            System.out.println("Date: " + date);
+            actionMap.forEach((action, users) -> {
+                System.out.println("  " + action + ": " + users.size() + " users");
+            });
+        });
+
+
+
     }
 }
