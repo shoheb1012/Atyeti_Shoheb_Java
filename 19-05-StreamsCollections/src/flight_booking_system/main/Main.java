@@ -5,6 +5,7 @@ import src.flight_booking_system.model.Booking;
 import src.flight_booking_system.service.BookingService;
 
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -24,5 +25,20 @@ public class Main {
         }
 
 
+        System.out.println("List passengers flying on a specific date.");
+
+        Map<LocalDate, List<String>> localDateListMap = BookingService.passengersFlyingOnSpecificDate(bookings);
+        Set<Map.Entry<LocalDate, List<String>>> flyingPassenger = localDateListMap.entrySet();
+
+        for (Map.Entry<LocalDate, List<String>> entry : flyingPassenger) {
+            System.out.println("Passengers are flying on "+entry.getKey()+"\n"+entry.getValue());
+        }
+
+        System.out.println("Detect duplicate bookings using passenger name + flightId.");
+        List<Booking> duplicateBooking= BookingService.duplicateDetection(bookings);
+        for(Booking booking : duplicateBooking)
+        {
+            System.out.println(booking);
+        }
     }
 }
