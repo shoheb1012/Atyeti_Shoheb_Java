@@ -69,3 +69,4 @@ public class VehicleEntry {
                         ", exit_time=" + exit_time;
     }
 }
+

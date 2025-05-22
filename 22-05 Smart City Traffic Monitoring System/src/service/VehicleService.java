@@ -16,3 +16,4 @@ public class VehicleService {
                 .collect(Collectors.toList());
     }
 }
+
