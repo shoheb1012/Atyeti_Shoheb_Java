@@ -1,0 +1,46 @@
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: log1.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log2.log => Index 1 out of bounds for length 1
+[ERROR] Failed to process file: log3.log => Index 1 out of bounds for length 1
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to create table Table 'logger' already exists
