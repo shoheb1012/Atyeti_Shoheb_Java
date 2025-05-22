@@ -40,6 +40,14 @@ public class EmployeeService {
     }
 
 
-    //Find top 3 departments by total team salary.
+    //Detect cyclic manager references (an employee managing their own manager directly or indirectly).
+
+    public static List<Employee> cyclicManager(List<Employee> employees) {
+
+        List<Employee> collect1 = employees.stream().filter(x->x.getManagerId()==null).peek(x -> x.setManagerId(x.getEmployeeId())).collect(Collectors.toList());
+        return collect1.stream().filter(x -> x.getManagerId().equals(x.getEmployeeId())).collect(Collectors.toList());
+
+
+    }
 
 }

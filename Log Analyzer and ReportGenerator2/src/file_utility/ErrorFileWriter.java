@@ -1,13 +1,9 @@
 package file_utility;
-
 import appconfig.FileConfig;
-import dbutility.TableCreation;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.logging.Logger;
-
 public class ErrorFileWriter {
 
     static Logger logger = Logger.getLogger(ErrorFileWriter.class.getName());
@@ -17,7 +13,7 @@ public class ErrorFileWriter {
             bw.write("[ERROR] " + message);
             bw.newLine();
         } catch (IOException ioe) {
-           logger.warning("Failed to write to error-log.txt: " + ioe.getMessage());
+            logger.warning("Failed to write to error-log.txt: " + ioe.getMessage());
         }
     }
 }
