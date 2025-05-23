@@ -1,4 +1,5 @@
-package src.convertlisttomap.model;
+package model;
+
 
 public class Product {
 
@@ -50,9 +51,9 @@ public class Product {
     public String toString() {
         return
                 "productId=" + productId +
-                ", productName='" + productName + '\'' +
-                ", productQty=" + productQty +
-                ", productPrice=" + productPrice
+                        ", productName='" + productName + '\'' +
+                        ", productQty=" + productQty +
+                        ", productPrice=" + productPrice
                 ;
     }
 

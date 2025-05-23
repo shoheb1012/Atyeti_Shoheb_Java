@@ -1,8 +1,6 @@
 package src.flight_booking_system.main;
 
-import src.flight_booking_system.filehandling.FileHandler;
-import src.flight_booking_system.model.Booking;
-import src.flight_booking_system.service.BookingService;
+
 
 import java.io.IOException;
 import java.time.LocalDate;

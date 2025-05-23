@@ -1,8 +1,6 @@
 package src.convertlisttomap;
 
-import convertlisttomap.model.Product;
-import convertlisttomap.service.ConvertListToMap;
-
+import model.Product;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

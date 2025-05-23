@@ -1,8 +1,10 @@
 
 
-import employee_management_system.filehandling.EmployeeData;
-import employee_management_system.model.Employee;
-import employee_management_system.utility.EmployeeService;
+
+
+import filehandling.EmployeeData;
+import model.Employee;
+import utility.EmployeeService;
 
 import java.io.IOException;
 import java.util.List;
@@ -15,7 +17,7 @@ public class Main {
       String filePath="C:\\Users\\ShohebPathan\\tyeti_Shoheb_Java\\19-05-StreamsCollections\\src\\employee_management_system\\resources\\employee_data_with_duplicates.txt";
        //String filePath = "employee_data_with_duplicates.txt";
 
-        List<Employee> employees = EmployeeData.readEmployeeData(filePath);
+        List<Employee> employees= EmployeeData.readEmployeeData(filePath);
 
         //Find all employees in a specific department.
         List<Employee> hrDepartment = EmployeeService.findByDepartment(employees, "HR");

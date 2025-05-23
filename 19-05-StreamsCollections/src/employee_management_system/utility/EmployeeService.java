@@ -1,6 +1,8 @@
-package employee_management_system.utility;
+package utility;
 
-import employee_management_system.model.Employee;
+import model.Employee;
+
+import model.Employee;
 
 import java.util.List;
 import java.util.Map;

@@ -1,6 +1,8 @@
-package employee_management_system.filehandling;
+package filehandling;
 
-import employee_management_system.model.Employee;
+
+
+import model.Employee;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

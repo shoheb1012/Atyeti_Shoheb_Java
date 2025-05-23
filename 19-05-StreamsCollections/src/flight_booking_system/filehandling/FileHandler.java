@@ -1,7 +1,4 @@
 package src.flight_booking_system.filehandling;
-
-import src.flight_booking_system.model.Booking;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

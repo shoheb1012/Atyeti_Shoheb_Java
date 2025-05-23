@@ -1,4 +1,4 @@
-package employee_management_system.model;
+package model;
 
 import java.util.Objects;
 
