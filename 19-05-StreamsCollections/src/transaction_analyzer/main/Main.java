@@ -1,8 +1,7 @@
 package src.transaction_analyzer.main;
 
-import src.transaction_analyzer.filehandling.TransactionData;
-import src.transaction_analyzer.model.Transaction;
-import src.transaction_analyzer.service.TransactionService;
+
+
 
 import javax.sound.midi.Soundbank;
 import java.io.IOException;

@@ -1,0 +1,15 @@
+4. Custom Thread Pool Implementation
+Problem:
+Implement your own thread pool class with the following:
+Fixed number of worker threads.
+Task queue for holding submitted tasks.
+Worker threads pick tasks from the queue and execute them.
+Implement methods to submit tasks and shut down the pool gracefully.
+Requirements:
+Use Runnable tasks.
+Use wait() and notify() or concurrent queues for task management.
+Handle thread termination properly.
+Expected Behavior:
+Tasks are executed by worker threads.
+Thread pool reuses threads efficiently.
+No new tasks accepted after shutdown.
