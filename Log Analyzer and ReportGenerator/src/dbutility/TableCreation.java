@@ -1,8 +1,8 @@
-package src.dbutility;
-import src.appconfig.DataBaseConfig;
-import src.appconfig.DbConnection;
-import src.exceptionhandling.DataBaseException;
-import src.file_utility.ErrorFileWriter;
+package dbutility;
+import appconfig.*;
+
+import exceptionhandling.*;
+import file_utility.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class TableCreation {
 
-    public static Logger logger = Logger.getLogger(TableCreation.class.getName());
+    static Logger logger = Logger.getLogger(TableCreation.class.getName());
 
     public static void createTable(String query) {
         try {

@@ -1,5 +1,5 @@
-package src.file_utility;
-import src.appconfig.FileConfig;
+package file_utility;
+import appconfig.*;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

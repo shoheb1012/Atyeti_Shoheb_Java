@@ -1,4 +1,4 @@
-package src.exceptionhandling;
+package exceptionhandling;
 
 public class DataBaseException extends RuntimeException {
 

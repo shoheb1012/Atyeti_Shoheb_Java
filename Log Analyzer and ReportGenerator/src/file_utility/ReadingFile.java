@@ -1,10 +1,8 @@
-package src.file_utility;
+package file_utility;
 
-import pojo.Log;
+import pojo.*;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,8 +33,13 @@ public class ReadingFile {
                 //  DuplicateFile.writeFile(line);
             }
 
-        } catch (Exception e) {
+        }
+        catch (FileNotFoundException e) {
             ErrorFileWriter.log("Failed to process file: " + file.getName() + " => " + e.getMessage());
+
+        }
+        catch (IOException e) {
+            ErrorFileWriter.log(e.getMessage());
         }
     }
 

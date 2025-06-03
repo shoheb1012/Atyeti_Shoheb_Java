@@ -1,4 +1,4 @@
-package src.appconfig;
+package appconfig;
 
 public interface FileConfig {
 

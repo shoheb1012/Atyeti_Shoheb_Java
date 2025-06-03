@@ -1,9 +1,6 @@
-package src.file_utility;
-
-import src.appconfig.FileConfig;
-
+package file_utility;
+import appconfig.*;
 import java.io.*;
-
 
 public class DuplicateFile {
     public static void writeDataToDuplicateFile(File logFile) {
@@ -18,8 +15,14 @@ public class DuplicateFile {
             bufferedReader.close();
             bufferedWriter.close();
 
-        } catch (IOException e) {
+        } catch (FileNotFoundException e) {
 
+            ErrorFileWriter.log(e.getMessage());
+
+
+        }
+        catch (IOException e)
+        {
             ErrorFileWriter.log(e.getMessage());
 
         }

@@ -44,3 +44,34 @@
 [ERROR] Failed to create table Table 'logger' already exists
 [ERROR] Failed to create table Table 'logger' already exists
 [ERROR] Failed to create table Table 'logger' already exists
+[ERROR] Failed to process file: emptylogfil.log => resource\emptylogfil.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] non_existing.log (The system cannot find the file specified)
+[ERROR] non_existing.log (The system cannot find the file specified)
+[ERROR] non_existing.log (The system cannot find the file specified)
+[ERROR] non_existing.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: empty.log => resource\empty.log (The system cannot find the file specified)
+[ERROR] Failed to process file: nonexistent.log => resource\nonexistent.log (The system cannot find the file specified)
+[ERROR] Failed to process file: nonexistent.log => resource\nonexistent.log (The system cannot find the file specified)
+[ERROR] non_existing.log (The system cannot find the file specified)
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong
+[ERROR] Something went wrong

@@ -1,16 +1,16 @@
-package src.dbutility;
+package dbutility;
 
-import src.appconfig.*;
-import src.appconfig.DbConnection;
+
+import appconfig.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
-import static src.dbutility.TableCreation.logger;
-
+import java.util.logging.Logger;
 
 public class InsertingDataIntoDb {
+
+    static Logger logger = Logger.getLogger(InsertingDataIntoDb.class.getName());
 
     public static void insertingCountIntoTable(int errorCount, int warnCount, int infoCount) throws SQLException {
 
