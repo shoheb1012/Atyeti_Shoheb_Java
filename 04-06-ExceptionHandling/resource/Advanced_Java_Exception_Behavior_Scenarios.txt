@@ -1,0 +1,50 @@
+ Advanced Java Exception Behavior Scenarios
+ =============================================
+ 1. Exception in Finally Block Overriding Try-Catch
+ Try block throws an exception, but finally also throws. Finally's exception overrides the original one.
+ => Only finally's exception is propagated. Original is suppressed.
+
+                                                                                                       bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+ 2. Suppressed Exceptions in Try-With-Resources
+ When both try and close() throw exceptions, try's exception is propagated, close() is suppressed.
+ => Learn to retrieve suppressed exceptions with getSuppressed().
+
+
+ 3. Overriding Method Throws Fewer or Different Exceptions
+ A subclass method can throw narrower or unchecked exceptions.
+ => Cannot throw broader or new checked exceptions.
+
+
+ 4. Static Initializer Exception Halts Class Loading
+ If a static block throws an exception, the class fails to load.
+ => JVM throws ExceptionInInitializerError.
+
+
+ 5. Exception Masked by Return in Finally
+ If finally contains return, it overrides the exception from try or catch.
+ => Exception is completely lost.
+
+
+ 6. Throwing Null as an Exception
+ Legal but results in NullPointerException thrown by JVM.
+ => Use with extreme caution.
+
+
+ 7. Checked Exception Not Declared or Caught
+ Compiler forces checked exceptions to be either caught or declared.
+ => Compile-time error if ignored.
+
+
+ 8. Exception in Catch Block
+ If catch block throws another exception, that one is propagated.
+ => Finally still executes.
+
+
+ 9. Overloading Methods with Throwing Exceptions
+ Method resolution can be ambiguous with overloads and nulls.
+ => Must cast null to resolve correctly.
+
+
+ 10. Throwing Exception from main() Without Declaring
+ main can declare 'throws Exception' and throw it.
+ => JVM will print the stack trace.
