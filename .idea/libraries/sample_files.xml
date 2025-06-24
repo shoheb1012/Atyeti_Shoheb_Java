@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sample_files">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ZipDemo/resource/sample_files.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

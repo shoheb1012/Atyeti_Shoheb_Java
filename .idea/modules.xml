@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04-06-ExceptionHandling/04-06-ExceptionHandling.iml" filepath="$PROJECT_DIR$/04-06-ExceptionHandling/04-06-ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-05-CoreJavaBasic/12-05-CoreJavaBasic.iml" filepath="$PROJECT_DIR$/12-05-CoreJavaBasic/12-05-CoreJavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-05 CoreJava/13-05 CoreJava.iml" filepath="$PROJECT_DIR$/13-05 CoreJava/13-05 CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-05-CoreJavaOOPS/14-05-CoreJavaOOPS.iml" filepath="$PROJECT_DIR$/14-05-CoreJavaOOPS/14-05-CoreJavaOOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-5-CoreJava/15-5-CoreJava.iml" filepath="$PROJECT_DIR$/15-5-CoreJava/15-5-CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-05-CoreJava/16-05-CoreJava.iml" filepath="$PROJECT_DIR$/16-05-CoreJava/16-05-CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-05-StreamsCollections/19-05-StreamsCollections.iml" filepath="$PROJECT_DIR$/19-05-StreamsCollections/19-05-StreamsCollections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-05-AdvanceStreamsCollectionsFileHandling/20-05-AdvanceStreamsCollectionsFileHandling.iml" filepath="$PROJECT_DIR$/20-05-AdvanceStreamsCollectionsFileHandling/20-05-AdvanceStreamsCollectionsFileHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-05 Smart City Traffic Monitoring System/22-05 Smart City Traffic Monitoring System.iml" filepath="$PROJECT_DIR$/22-05 Smart City Traffic Monitoring System/22-05 Smart City Traffic Monitoring System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26-05-MultiThreading/26-05-MultiThreading.iml" filepath="$PROJECT_DIR$/26-05-MultiThreading/26-05-MultiThreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27-05-Executor Service/27-05-Executor Service.iml" filepath="$PROJECT_DIR$/27-05-Executor Service/27-05-Executor Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atyeti_Shoheb_Java.iml" filepath="$PROJECT_DIR$/Atyeti_Shoheb_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JsonModification/JsonModification.iml" filepath="$PROJECT_DIR$/JsonModification/JsonModification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Log Analyzer and ReportGenerator/Log Analyzer and ReportGenerator.iml" filepath="$PROJECT_DIR$/Log Analyzer and ReportGenerator/Log Analyzer and ReportGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZipDemo/ZipDemo.iml" filepath="$PROJECT_DIR$/ZipDemo/ZipDemo.iml" />
+    </modules>
+  </component>
+</project>
