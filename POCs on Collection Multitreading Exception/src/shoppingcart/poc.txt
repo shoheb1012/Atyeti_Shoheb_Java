@@ -1,0 +1,11 @@
+🛒 1. Shopping Cart with Multithreaded Checkout
+What happens?
+
+One thread is adding items to cart (like Apple, Banana, etc.).
+
+Another thread is checking out the cart (removing items).
+
+Use ArrayList or HashMap to store cart items.
+
+If an item is not available during checkout → throw ItemNotFoundException.
+

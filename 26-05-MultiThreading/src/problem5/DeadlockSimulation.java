@@ -3,6 +3,7 @@ public class DeadlockSimulation {
     private static final Object lock1 = new Object();
     private static final Object lock2 = new Object();
 
+
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> {
             synchronized (lock1) {

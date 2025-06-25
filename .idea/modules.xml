@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Atyeti_Shoheb_Java.iml" filepath="$PROJECT_DIR$/Atyeti_Shoheb_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/JsonModification/JsonModification.iml" filepath="$PROJECT_DIR$/JsonModification/JsonModification.iml" />
       <module fileurl="file://$PROJECT_DIR$/Log Analyzer and ReportGenerator/Log Analyzer and ReportGenerator.iml" filepath="$PROJECT_DIR$/Log Analyzer and ReportGenerator/Log Analyzer and ReportGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POCs on Collection Multitreading Exception/POCs on Collection Multitreading Exception.iml" filepath="$PROJECT_DIR$/POCs on Collection Multitreading Exception/POCs on Collection Multitreading Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZipDemo/ZipDemo.iml" filepath="$PROJECT_DIR$/ZipDemo/ZipDemo.iml" />
     </modules>
   </component>
