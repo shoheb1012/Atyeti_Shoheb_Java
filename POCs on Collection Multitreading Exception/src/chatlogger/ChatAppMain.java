@@ -14,7 +14,7 @@ public class ChatAppMain {
         int userCount = Integer.parseInt(scanner.nextLine());
 
 
-        ExecutorService executor = Executors.newFixedThreadPool(userCount);
+        ExecutorService executor = Executors.newSingleThreadExecutor();
 
         for (int i = 1; i <= userCount; i++) {
             System.out.print("Enter name for User " + i + ": ");
