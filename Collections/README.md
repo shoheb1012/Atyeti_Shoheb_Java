@@ -12,18 +12,16 @@
                 |
     ------------------------------------
     |                |               |
-
-List Set Queue
-| | |
-ArrayList HashSet PriorityQueue
-LinkedList TreeSet Deque (ArrayDeque)
+ List                Set             Queue
+   |                  |                |
+ArrayList          HashSet        PriorityQueue
+LinkedList         TreeSet        Deque (ArrayDeque)
 Vector LinkedHashSet
 
           Map (Interface)
             |
     ---------------------
     |        |         |
-
 HashMap TreeMap LinkedHashMap
 
 Key Interfaces Overview
@@ -92,4 +90,31 @@ Grows multiple times (1.5x)
 May copy arrays 10+ times
 That’s why always use constructor with capacity if possible
 List<Integer> list = new ArrayList<>(10000);
- 
+
+## LinkedList :
+===============
+📚 What You’ll do Today:
+#	Topic
+1	List Interface — features & role
+2	ArrayList vs LinkedList — use-case based
+3	LinkedList internals (how it works in memory)
+4	Iterator vs ListIterator
+5	Interview-level questions on LinkedList
+6	Advanced POC using both Lists
+7	Assignments: Logic + Real-world scenario
+
+
+Internals of LinkedList
+private static class Node<E> {
+E item;
+Node<E> next;
+Node<E> prev;
+}
+It's a doubly-linked list, each node has pointer to next & prev.
+
+Fast for:
+
+Inserting at start/mid
+
+Deleting from start/mid
+
