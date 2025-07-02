@@ -113,8 +113,5 @@ Node<E> prev;
 It's a doubly-linked list, each node has pointer to next & prev.
 
 Fast for:
-
 Inserting at start/mid
-
 Deleting from start/mid
-
