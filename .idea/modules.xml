@@ -15,9 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/27-05-Executor Service/27-05-Executor Service.iml" filepath="$PROJECT_DIR$/27-05-Executor Service/27-05-Executor Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Atyeti_Shoheb_Java.iml" filepath="$PROJECT_DIR$/Atyeti_Shoheb_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/FileHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/JsonModification/JsonModification.iml" filepath="$PROJECT_DIR$/JsonModification/JsonModification.iml" />
       <module fileurl="file://$PROJECT_DIR$/Log Analyzer and ReportGenerator/Log Analyzer and ReportGenerator.iml" filepath="$PROJECT_DIR$/Log Analyzer and ReportGenerator/Log Analyzer and ReportGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/POCs on Collection Multitreading Exception/POCs on Collection Multitreading Exception.iml" filepath="$PROJECT_DIR$/POCs on Collection Multitreading Exception/POCs on Collection Multitreading Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZipDemo/ZipDemo.iml" filepath="$PROJECT_DIR$/ZipDemo/ZipDemo.iml" />
     </modules>
   </component>
