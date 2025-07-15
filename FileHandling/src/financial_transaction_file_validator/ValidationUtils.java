@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 
 public class ValidationUtils {
 
-    public static boolean fileHeaderValidator(String fileName) {
+    public static boolean filenameValidator(String fileName) {
 
-        return Pattern.matches("^[A-Z0-9]{3,}_TXN_\\d{8}\\.csv$",fileName);
+        return Pattern.matches(Config.filenamePatternRegex,fileName);
     }
 
     public static boolean isDateValidFromFileName(String fileName) {
@@ -16,8 +16,7 @@ public class ValidationUtils {
         try {
             String dateInFile = fileName.substring(fileName.lastIndexOf("_") + 1, fileName.indexOf(".csv"));
             String today = new SimpleDateFormat("yyyyMMdd").format(new Date());
-            String allowedDate = "20250714"; // can be moved to config
-            return dateInFile.equals(today) || dateInFile.equals(allowedDate);
+            return dateInFile.equals(today) || dateInFile.equals(Config.allowedDate);
         } catch (Exception e) {
             return false;
         }
