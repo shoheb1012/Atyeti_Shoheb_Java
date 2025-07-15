@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/POCs on Collection Multitreading Exception/POCs on Collection Multitreading Exception.iml" filepath="$PROJECT_DIR$/POCs on Collection Multitreading Exception/POCs on Collection Multitreading Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZipDemo/ZipDemo.iml" filepath="$PROJECT_DIR$/ZipDemo/ZipDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileHandling/com.Atyeti.filevalidator/com.Atyeti.filevalidator.iml" filepath="$PROJECT_DIR$/FileHandling/com.Atyeti.filevalidator/com.Atyeti.filevalidator.iml" />
     </modules>
   </component>
 </project>

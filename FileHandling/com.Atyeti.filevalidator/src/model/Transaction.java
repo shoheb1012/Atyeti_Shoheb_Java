@@ -1,4 +1,4 @@
-package financial_transaction_file_validator;
+package model;
 
 import java.time.LocalDate;
 

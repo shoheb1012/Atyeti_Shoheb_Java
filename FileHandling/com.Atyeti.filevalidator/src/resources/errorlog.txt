@@ -1,0 +1,10 @@
+2025-07-15T14:33:18.872092400 - File: ABC123_TXN_202507.csv - Error: Header is not valid
+2025-07-15T14:44:07.966196800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T15:43:38.297637200 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T15:44:54.780074800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T15:45:12.738381400 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T15:45:12.766434100 - File: ABC123_TXN_20250715.csv - Error: Row invalid
+2025-07-15T15:46:19.236266700 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T15:46:19.264264800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-15T17:22:44.067632100 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T17:22:44.097631800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid

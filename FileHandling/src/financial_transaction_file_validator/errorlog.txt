@@ -1,2 +1,0 @@
-2025-07-15T14:33:18.872092400 - File: ABC123_TXN_202507.csv - Error: Header is not valid
-2025-07-15T14:44:07.966196800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid

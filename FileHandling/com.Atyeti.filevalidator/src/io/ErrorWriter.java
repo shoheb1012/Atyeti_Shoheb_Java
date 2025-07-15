@@ -1,4 +1,6 @@
-package financial_transaction_file_validator;
+package io;
+
+import config.Config;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

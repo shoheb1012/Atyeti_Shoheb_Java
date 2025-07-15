@@ -1,4 +1,4 @@
-package financial_transaction_file_validator;
+package exception;
 
 public class FileValidationException extends RuntimeException{
 
