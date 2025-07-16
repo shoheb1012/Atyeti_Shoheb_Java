@@ -36,3 +36,23 @@
 2025-07-16T15:25:54.504851900 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
 2025-07-16T15:25:54.572394400 - File: ABC123_TXN_20250715.csv - Error: Invalid Status: SUCCE
 2025-07-16T15:25:54.576395200 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:42:06.589431300 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:42:06.613434800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:42:49.506666300 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:42:49.533623600 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:43:58.732876 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:43:58.758046500 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:47:06.991448500 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:47:07.017850600 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:49:35.407488 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:49:35.432489900 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:50:57.371215800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:50:57.393590900 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:50:57.402588100 - File: ABC123_TXN_20250715.csv - Error: Invalid Status: SUCCE
+2025-07-16T15:51:08.553445700 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:51:08.577446800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:51:08.588446600 - File: ABC123_TXN_20250715.csv - Error: Invalid currency: IN
+2025-07-16T15:56:50.307772800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:56:50.332622700 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T17:30:27.658294500 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T17:30:27.740877600 - File: XYZ123_TXN_20250715.csv - Error: Row invalid

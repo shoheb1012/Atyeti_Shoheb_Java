@@ -45,6 +45,7 @@ public class FileValidationProcessor {
                 ValidationUtils.fieldLevelValidation(line, fileName);
 
             }
+            logger.info("Processed Successful "+fileName);
 
         } catch (FileValidationException e) {
             logger.warning(" Validation failed for file: " + fileName + " - " + e.getMessage());
