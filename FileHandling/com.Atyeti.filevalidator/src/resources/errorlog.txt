@@ -8,3 +8,31 @@
 2025-07-15T15:46:19.264264800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
 2025-07-15T17:22:44.067632100 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
 2025-07-15T17:22:44.097631800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-15T17:42:34.099072300 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-15T17:42:34.130076300 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:20:28.308166100 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:20:28.407014900 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:21:56.411874200 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:21:56.485546100 - File: ABC123_TXN_20250715.csv - Error: Invalid TXN_ID format: 001
+2025-07-16T15:21:56.491707600 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:22:13.957874800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:22:14.027936 - File: ABC123_TXN_20250715.csv - Error: Account should be 10-digit numeric: 34567890
+2025-07-16T15:22:14.031931400 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:22:37.115550400 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:22:37.179335100 - File: ABC123_TXN_20250715.csv - Error: Invalid TXN_DATE: 20250714 does not match file date: 20250715
+2025-07-16T15:22:37.184067300 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:22:55.873890900 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:22:55.945171800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:23:53.727400100 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:23:53.793659700 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:24:11.310983100 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:24:11.370989200 - File: ABC123_TXN_20250715.csv - Error: Amount should be positive decimal number 
+2025-07-16T15:24:11.375983300 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:24:41.250898200 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:24:41.340347100 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:25:37.059712600 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:25:37.141145900 - File: ABC123_TXN_20250715.csv - Error: Invalid currency: DNR
+2025-07-16T15:25:37.145018800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-16T15:25:54.504851900 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-16T15:25:54.572394400 - File: ABC123_TXN_20250715.csv - Error: Invalid Status: SUCCE
+2025-07-16T15:25:54.576395200 - File: XYZ123_TXN_20250715.csv - Error: Row invalid

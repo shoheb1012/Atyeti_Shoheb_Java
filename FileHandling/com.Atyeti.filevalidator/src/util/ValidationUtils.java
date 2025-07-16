@@ -2,12 +2,20 @@ package util;
 
 import config.Config;
 import exception.FileValidationException;
+import model.CurrencyType;
+import model.Status;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 public class ValidationUtils {
+
+    private String date;
 
     public static boolean filenameValidator(String fileName) {
 
@@ -49,6 +57,67 @@ public class ValidationUtils {
 
         return true;
     }
+
+    public static boolean fieldLevelValidation(String line, String fileName) {
+        String[] split = line.split(",");
+
+
+        String TXN_ID = split[0];
+        String ACCOUNT_NO = split[1];
+        LocalDate TXN_DATE = LocalDate.parse(split[2], DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+
+
+        double AMOUNT = Double.parseDouble(split[3]);
+        String CURRENCY = split[4];
+        String STATUS = split[5];
+
+        //txn_id validation
+        Set<String> stringSet = new HashSet<>();
+        Pattern txnPattern = Pattern.compile("^[A-Za-z]{3}[0-9]+$");
+
+        if (!txnPattern.matcher(TXN_ID).matches()) {
+            throw new FileValidationException("Invalid TXN_ID format: " + TXN_ID);
+        }
+        if (!stringSet.add(TXN_ID)) {
+            throw new FileValidationException("Duplicate TXN_ID found: " + TXN_ID);
+        }
+
+        //ACCOUNT number validation
+        if (!ACCOUNT_NO.matches("\\d{10}")) {
+            throw new FileValidationException("Account should be 10-digit numeric: " + ACCOUNT_NO);
+        }
+
+        //Amount validation
+        if (!(AMOUNT >= 0)) {
+            throw new FileValidationException("Amount should be positive decimal number ");
+        }
+
+        //Date Validation
+        String dateInFile = fileName.substring(fileName.lastIndexOf("_") + 1, fileName.indexOf(".csv"));
+        String formattedTxnDate = TXN_DATE.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+        if (!formattedTxnDate.equals(dateInFile)) {
+            throw new FileValidationException("Invalid TXN_DATE: " + formattedTxnDate + " does not match file date: " + dateInFile);
+        }
+
+        //Currency validation
+        try {
+             CurrencyType.valueOf(CURRENCY.toUpperCase());
+        } catch (IllegalArgumentException e) {
+            throw new FileValidationException("Invalid currency: " + CURRENCY);
+        }
+
+        //Status validation
+        try {
+           Status.valueOf(STATUS.toUpperCase());
+        } catch (IllegalArgumentException e) {
+            throw new FileValidationException("Invalid Status: " + STATUS);
+        }
+
+
+        return true;
+}
+
+
 
 
 }

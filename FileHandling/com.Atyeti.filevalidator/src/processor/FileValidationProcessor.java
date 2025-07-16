@@ -23,34 +23,34 @@ public class FileValidationProcessor {
             if (!ValidationUtils.filenameValidator(fileName)) {
                 throw new FileValidationException("FileName is not valid");
             }
-            logger.info(" FileName is valid for file: " + fileName);
+
 
             if (!ValidationUtils.isDateValidFromFileName(fileName)) {
                 throw new FileValidationException("File Date is invalid");
             }
-            logger.info("File Date is valid for file: " + fileName);
-            logger.info("Reading a file :"+fileName);
+
+
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String line;
             String header = reader.readLine();
-            if(!ValidationUtils.isFileHeaderValid(header))
-            {
-               throw new FileValidationException("Header is mismatch");
+            if (!ValidationUtils.isFileHeaderValid(header)) {
+                throw new FileValidationException("Header is mismatch");
             }
-            logger.info("file header is valid for file "+fileName);
-            while ((line=reader.readLine())!=null)
-            {
-                if(!ValidationUtils.isValidRow(line))
-                {
+
+            while ((line = reader.readLine()) != null) {
+                if (!ValidationUtils.isValidRow(line)) {
                     throw new FileValidationException("Row invalid");
                 }
+
+                ValidationUtils.fieldLevelValidation(line, fileName);
+
             }
 
         } catch (FileValidationException e) {
             logger.warning(" Validation failed for file: " + fileName + " - " + e.getMessage());
             ErrorWriter.writeErrorToFile(fileName, e.getMessage());
         } catch (IOException e) {
-            ErrorWriter.writeErrorToFile(fileName,e.getMessage());
+            ErrorWriter.writeErrorToFile(fileName, e.getMessage());
         }
     }
 }
