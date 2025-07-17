@@ -5,6 +5,12 @@ import exception.FileValidationException;
 import model.CurrencyType;
 import model.Status;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -76,48 +82,54 @@ public class ValidationUtils {
         Pattern txnPattern = Pattern.compile("^[A-Za-z]{3}[0-9]+$");
 
         if (!txnPattern.matcher(TXN_ID).matches()) {
-            throw new FileValidationException("Invalid TXN_ID format: " + TXN_ID+" in file "+fileName);
+            throw new FileValidationException("Invalid TXN_ID format: " + TXN_ID + " in file " + fileName);
         }
         if (!stringSet.add(TXN_ID)) {
-            throw new FileValidationException("Duplicate TXN_ID found: " + TXN_ID+" in file "+fileName);
+            throw new FileValidationException("Duplicate TXN_ID found: " + TXN_ID + " in file " + fileName);
         }
 
         //ACCOUNT number validation
         if (!ACCOUNT_NO.matches("\\d{10}")) {
-            throw new FileValidationException("Account should be 10-digit numeric: " + ACCOUNT_NO+" in file "+fileName);
+            throw new FileValidationException("Account should be 10-digit numeric: " + ACCOUNT_NO + " in file " + fileName);
         }
 
         //Amount validation
         if (!(AMOUNT >= 0)) {
-            throw new FileValidationException("Amount should be positive decimal number in file "+fileName);
+            throw new FileValidationException("Amount should be positive decimal number in file " + fileName);
         }
 
         //Date Validation
         String dateInFile = fileName.substring(fileName.lastIndexOf("_") + 1, fileName.indexOf(".csv"));
         String formattedTxnDate = TXN_DATE.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
         if (!formattedTxnDate.equals(dateInFile)) {
-            throw new FileValidationException("Invalid TXN_DATE: " + formattedTxnDate + " does not match file date: " + dateInFile+" in file "+fileName);
+            throw new FileValidationException("Invalid TXN_DATE: " + formattedTxnDate + " does not match file date: " + dateInFile + " in file " + fileName);
         }
 
         //Currency validation
         try {
-             CurrencyType.valueOf(CURRENCY.toUpperCase());
+            CurrencyType.valueOf(CURRENCY.toUpperCase());
         } catch (IllegalArgumentException e) {
-            throw new FileValidationException("Invalid currency: " + CURRENCY+" in file "+fileName);
+            throw new FileValidationException("Invalid currency: " + CURRENCY + " in file " + fileName);
         }
 
         //Status validation
         try {
-           Status.valueOf(STATUS.toUpperCase());
+            Status.valueOf(STATUS.toUpperCase());
         } catch (IllegalArgumentException e) {
-            throw new FileValidationException("Invalid Status: " + STATUS+" in file "+fileName);
+            throw new FileValidationException("Invalid Status: " + STATUS + " in file " + fileName);
         }
 
 
         return true;
-}
+    }
 
+    public static void moveToDirectory(File file, String directoryPath) throws IOException{
 
+            Path targetDir = Paths.get(directoryPath);
+            Files.createDirectories(targetDir);
+            Files.move(file.toPath(), targetDir.resolve(file.getName()), StandardCopyOption.REPLACE_EXISTING);
+
+    }
 
 
 }

@@ -56,3 +56,27 @@
 2025-07-16T15:56:50.332622700 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
 2025-07-16T17:30:27.658294500 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
 2025-07-16T17:30:27.740877600 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:25:10.928281700 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:25:10.979135500 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:29:31.231182500 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:29:31.292690100 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:29:31.314236800 - File: ABC123_TXN_20250715.csv - Error: FileHandling\com.Atyeti.filevalidator\Transactionfiles\ABC123_TXN_20250715.csv -> Accepted\ABC123_TXN_20250715.csv: The process cannot access the file because it is being used by another process
+2025-07-17T09:33:32.330062 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:33:32.399074700 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:33:32.423106100 - File: ABC123_TXN_20250715.csv - Error: FileHandling\com.Atyeti.filevalidator\Transactionfiles\ABC123_TXN_20250715.csv -> Accepted\ABC123_TXN_20250715.csv: The process cannot access the file because it is being used by another process
+2025-07-17T09:34:08.052071600 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:34:08.116402 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:34:08.137771400 - File: ABC123_TXN_20250715.csv - Error: FileHandling\com.Atyeti.filevalidator\Transactionfiles\ABC123_TXN_20250715.csv -> Accepted\ABC123_TXN_20250715.csv: The process cannot access the file because it is being used by another process
+2025-07-17T09:35:01.749640600 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:35:01.804733800 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:35:01.820735100 - File: ABC123_TXN_20250715.csv - Error: FileHandling\com.Atyeti.filevalidator\Transactionfiles\ABC123_TXN_20250715.csv -> FileHandling\com.Atyeti.filevalidator\Accepted\ABC123_TXN_20250715.csv: The process cannot access the file because it is being used by another process
+2025-07-17T09:36:49.203207800 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:36:49.262600200 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:44:44.744974 - File: ABC123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T09:44:44.792030200 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:45:50.583517900 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:47:08.162368600 - File: XYZ123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T09:53:14.227050800 - File: DEM123_TXN_202515.csv - Error: FileName is not valid
+2025-07-17T09:56:09.932568 - File: DEM123_TXN_20250715.csv - Error: Row invalid
+2025-07-17T10:10:35.210367300 - File: XYZ123_TXN_202507.csv - Error: FileName is not valid
+2025-07-17T10:12:42.674098600 - File: ABC123_TXN_202507.csv - Error: FileName is not valid

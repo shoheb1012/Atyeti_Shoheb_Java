@@ -1,5 +1,9 @@
 package model;
 
+import org.apache.tomcat.util.http.fileupload.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
 import java.time.LocalDate;
 
 public class Transaction {
@@ -78,4 +82,5 @@ public class Transaction {
                 ", STATUS='" + STATUS + '\'' +
                 '}';
     }
+
 }
