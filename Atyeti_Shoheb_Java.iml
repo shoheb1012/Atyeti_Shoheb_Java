@@ -9,7 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="22-05 Smart City Traffic Monitoring System" />
-    <orderEntry type="module" module-name="19-05-StreamsCollections" />
     <orderEntry type="module" module-name="20-05-AdvanceStreamsCollectionsFileHandling" />
   </component>
 </module>
