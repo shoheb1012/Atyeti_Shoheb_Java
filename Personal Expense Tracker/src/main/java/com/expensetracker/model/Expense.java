@@ -25,6 +25,23 @@ public class Expense {
         this.paymentMethod = PaymentMethod.CASH; // default
     }
 
+    public Expense(String description, double amount, LocalDate date, Category category, PaymentMethod paymentMethod, String notes) {
+        this.description = description;
+        this.amount = amount;
+        this.date = date;
+        this.category = category;
+        this.paymentMethod = paymentMethod;
+        this.notes = notes;
+    }
+
+    public Expense(String description, double amount, LocalDate date, Category category, PaymentMethod paymentMethod) {
+        this.description = description;
+        this.amount = amount;
+        this.date = date;
+        this.category = category;
+        this.paymentMethod = paymentMethod;
+    }
+
     // Getters and Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
